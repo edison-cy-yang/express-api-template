@@ -1,16 +1,15 @@
-Watch Buddy API
+Express API with Postgres
 =========
 
 
 ## Getting Started
 
-1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
+1. Create the `.env.development` by using `.env.example` as a reference: `cp .env.example .env.development`
 2. Update the .env file with your correct local information 
   - username: `` 
   - password: `` 
   - database: ``
 3. Install dependencies: `npm i`
-4. Fix to binaries for sass: `npm rebuild node-sass`
 5. Reset database: `npm run db:reset`
   - Check the db folder to see what gets created and seeded in the SDB
 7. Run the server: `npm run local`
